@@ -17,7 +17,6 @@ export default css`
   }
 
   .preview {
-    background: var(--primary-color);
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -216,7 +215,6 @@ export default css`
   }
 
   .toolbar {
-    background: var(--lovelace-background, var(--primary-background-color));
     min-height: 30px;
     display: flex;
     flex-direction: row;
